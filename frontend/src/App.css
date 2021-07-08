@@ -1,0 +1,113 @@
+nav{
+	background-color: rgba(206, 57, 11, 0.993);
+	color: white;
+	padding: 8px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navBtn{
+	background-color: rgb(243, 106, 42);
+	color: white;
+	border: none;
+	height: 1.5rem;
+	border-radius: 3px;
+}
+
+.btn{
+	border-width: 2px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(243, 106, 42);
+    border-color: rgb(243, 106, 42);
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(206, 57, 11, 0.993);
+}
+
+.btn-outline-primary {
+    color: rgb(243, 106, 42);;
+    background-color: #fff;
+    border-color: rgb(243, 106, 42);
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: rgb(243, 106, 42);
+		border-color: rgb(243, 106, 42);
+		border-width: 2px;
+}
+
+.navLink{
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+a{
+	text-decoration: none;
+	color: none;
+}
+
+body{
+	background-image: url("./images/Teqball.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgb(240, 96, 29);
+}
+
+h1{
+	font-size: 26px;
+	color: white;
+}
+
+.pageContent{
+	background-color: white;
+	border: 1px solid rgb(211, 211, 211);
+	width: 50vw;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.pageDiv{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	padding: 10px;
+}
+
+.card-body{
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.vertical{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.divLine{
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+
+#eventAcceptBtn, #eventRejectBtn{
+	width: 100px;
+}
+
+.eventPage{
+	/* width: 100%;
+	display: flex; */
+}
