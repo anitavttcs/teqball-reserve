@@ -1,8 +1,6 @@
 import React from 'react';
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
-// https://react-google-maps-api-docs.netlify.app/#googlemap
-
 const containerStyle = {
 	width: '90vw',
 	height: '500px'
@@ -17,7 +15,7 @@ const center = {
 function Map() {
 	return (
 		<LoadScript
-			googleMapsApiKey="AIzaSyC_nblkfOYOPmLioiINOj1ITt475ZnYvpo"
+			googleMapsApiKey=""
 		>
 			<GoogleMap
 				id="overlay-view-example"
